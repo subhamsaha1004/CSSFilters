@@ -28,7 +28,8 @@
 		hueRotate: 'hue-rotate',
 		invert: 'invert'	,
 		grayscale: 'grayscale',
-		sepia: 'sepia'
+		sepia: 'sepia',
+		reset: ''
 	}
 
 	// Handling the events and applying the proper filter class
