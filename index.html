@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>CSS Filters</title>
+
+	<link href='http://fonts.googleapis.com/css?family=Kelly+Slab|Oleo+Script+Swash+Caps:400,700|Amaranth:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="main.css">
+</head>
+<body>
+	<div id="page">
+		<h1>CSS Filters</h1>
+		<div id="content">
+			<img src="subham.jpg" alt="Subham Saha" width="300" height="400" class="floatL targetImg">
+			<div class="rightSide floatR">
+				<p>Select any filter from the list below and see it applied to the image on the left.</p>
+				<p>All effects achieved through the use of CSS Filters.</p><br>
+				<p>Currently the values have been hard-coded in css.</p>
+				<p>More control over the filters coming soon.</p>
+				<div class="dropDownWrapper">
+					<p class="label"><span class="text">Apply filter</span><span class="dnArrow"></span></p>
+					<ul class="dropDown dispNone">
+						<li data-filter="blur">Blur</li>
+						<li data-filter="brightness">Brightness</li>
+						<li data-filter="saturate">Saturation</li>
+						<li data-filter="hueRotate">Hue Rotate</li>
+						<li data-filter="contrast">Contrast</li>
+						<li data-filter="invert">Invert</li>
+						<li data-filter="grayscale">GrayScale</li>
+						<li data-filter="sepia">Sepia</li>
+					</ul>
+				</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+	</div>
+	<script src="app.js"></script>
+</body>
+</html>
